@@ -111,3 +111,9 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
+.gitlink {
+  text-align: center;
+  font-size: 10px;
+  display: block;
+  margin: 30px 0px;
+}
