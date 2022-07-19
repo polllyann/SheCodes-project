@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://kit.fontawesome.com/e08620acba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya+Sans+SC:wght@700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<title>Weather</title>
+  </head>
+  <body>
+    <div class="allpage">
+        <div>
+            <form class="d-flex search-field" id="search-field" role="search">
+              <input class="form-control me-2 choose-city" id="city-input" type="search" placeholder="Choose your city..." aria-label="Search">
+              <button class="btn btn-outline-success search-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <a href="#" class="current-location" id="current-location-button">or use current location</a>
+            <div class="veryTopImage"><img src="images/sun.png" alt="sun"/></div>
+    <h1>  </h1>
+    <h2><span id="day-month">  <span><br /><span id="weather-description"> </span></h2>
+    <h3><span id="temperature-number">  </span>°<a href="#" id="celsius-link">C</a>|<a href="#" id="fahrenheit-link">F</a></h3>
+    <p>
+      Wind: <span id="wind-id"> </span>km/h
+      <br />
+      Humidity: <span id="humidity-id"> </span>%
+      
+    </p>
+    <div class="container weather-icons">
+      <div class="row">
+        <div class="col"><img src="images/rain.png" alt="rain" /><br /><div class="day">Wed<br />15°C</div></div>
+        <div class="col"><img src="images/sun.png" alt="sun"/><br /><div class="day">Thu<br />17°C</div></div>
+        <div class="col"><img src="images/suncloudy.png" alt="suncloudy" /><br /><div class="day">Fri<br />15°C</div></div>
+        <div class="col"><img src="images/rain.png" alt="rain" /><br /><div class="day">Sat<br />13°C</div></div>
+        <div class="col"><img src="images/thunderstorm.png" alt="thunderstorm" /><br /><div class="day">Sun<br />16°C</div></div>
+      </div>
+    </div>
+    </ul>
+  </div>
+  <script src="src/script.js">
+  </script>
+  </body>
+</html>

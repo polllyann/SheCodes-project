@@ -1,0 +1,113 @@
+h1,
+h2,
+h3,
+p,
+a {
+  text-align: center;
+  color: #5a6275;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0 auto;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+h2 {
+  font-size: 15px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  margin: 0 auto;
+}
+h3 {
+  font-size: 60px;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+img {
+  max-width: 60px;
+  margin-bottom: 15px;
+}
+p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Alegreya Sans", sans-serif;
+  line-height: 15px;
+}
+a {
+  text-decoration: none;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 900;
+  transition: all 150ms ease-in-out;
+}
+a:hover {
+  cursor: pointer;
+  color: #fdc345;
+}
+.allpage {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.search-field {
+  margin: 25px 0 0 0;
+}
+
+.search-field:hower {
+  border-color: #6e6dbb;
+  margin: 25px 0 0 0;
+}
+.search-button {
+  margin-left: -47px;
+  border: none;
+  color: #6e6dbb;
+}
+.search-button:hover {
+  background-color: #6e6dbb;
+}
+.current-location {
+  font-size: x-small;
+  text-align: end;
+  font-weight: 100;
+  margin: 0px 0px 0px 15px;
+}
+.choose-city {
+  font-family: "Alegreya Sans", sans-serif;
+  border: 1px solid #8d95ac;
+}
+.choose-city:focus {
+  font-family: "Alegreya Sans", sans-serif;
+  box-shadow: 0 0 5px #fdc345;
+  border: 1px solid #fdc345;
+}
+.veryTopImage {
+  display: block;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+.weather-icons {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.day {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #5a6275;
+  font-weight: 700;
+}
+input[type="search"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+input[type="search"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
